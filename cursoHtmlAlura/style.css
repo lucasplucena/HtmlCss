@@ -116,4 +116,38 @@ form label, form legend {
 	margin: 20px 0;
 }
 
+.enviar{
+	background: orange;
+	width: 40%;
+	padding: 15px 0px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 0.8s;
+	cursor: pointer;
+}
+
+.enviar:hover{
+	background: darkorange;
+	transform: scale(1.1);
+	
+}
+
+table{
+	margin: 20px;
+}
+
+thead{
+	background-color: grey;
+	color: white;
+	font-weight: 500;
+}
+
+td, th{
+	border: 1px solid black;
+	padding: 10px 18px;
+}
+
 /*Hierarquia: Inline(101) > ID(100) > Classe(10) > Tag(1)*/
