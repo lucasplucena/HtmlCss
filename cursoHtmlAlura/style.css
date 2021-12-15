@@ -7,10 +7,17 @@ header {
 	text-align: center;
 	font-size: 2em;
 	margin: 0 0 1em;
+	clear: left;
 }
 
 .banner{
 	width: 100%;
+}
+
+.utensilios{
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
 }
 
 .principal p{
@@ -172,4 +179,7 @@ td, th{
 	padding: 10px 18px;
 }
 
+.imagembeneficios{
+	width: 60%;
+}
 /*Hierarquia: Inline(101) > ID(100) > Classe(10) > Tag(1)*/
